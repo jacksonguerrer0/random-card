@@ -1,11 +1,17 @@
-
+import React from 'react'
 import '../styles/App.css';
+import Main from '../components/Main'
+import Creador from '../components/Creador'
 
-function App() {
+function App({children}) {
   return (
-    <div className="App">
-      <h1>Jai bro</h1>
-    </div>
+    <>
+    <Main>
+      {children}
+    </Main>
+    <Creador/>
+
+    </>
   );
 }
 
