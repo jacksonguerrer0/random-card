@@ -3,10 +3,11 @@ import styled from 'styled-components'
 
 const CreadorDiv = styled.div`
     text-align: center;
+    color: #535353;
 `
 const Creador = () => {
     return (
-        <div id="creador">BY Jackson</div>
+        <CreadorDiv id="creador">BY Jackson</CreadorDiv>
     )
 }
 

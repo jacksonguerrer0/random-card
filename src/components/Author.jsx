@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { Component } from 'react'
 import styled from 'styled-components'
 
 const AuthorDiv = styled.div`
@@ -9,12 +9,16 @@ const AuthorDiv = styled.div`
     margin-top: 20px;
 
 `
-const Author = () => {
-    return (
-        <AuthorDiv id="author">
-            <p id="author">-Soy el autor</p>
-        </AuthorDiv>
-    )
+
+
+export default class Author extends Component {
+    render() {
+        const { autor, color } = this.props
+        return (
+            <AuthorDiv style={{color: `${color}`}}>
+                <p>{autor}</p>
+            </AuthorDiv>
+        )
+    }
 }
 
-export default Author

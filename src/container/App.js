@@ -1,17 +1,14 @@
 import React from 'react'
-import '../styles/App.css';
 import Main from '../components/Main'
-import Creador from '../components/Creador'
 
-function App({children}) {
+
+
+
+function App() {
   return (
-    <>
-    <Main>
-      {children}
-    </Main>
-    <Creador/>
-
-    </>
+    <div>
+      <Main/>  
+    </div>
   );
 }
 
