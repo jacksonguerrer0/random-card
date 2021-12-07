@@ -5,7 +5,7 @@ const BotonsDiv = styled.div`
   margin-top: 20px;
   display: flex;
   justify-content: space-between;
-  transition: all 1s ease-in-out
+  transition: all 1s ease-in-out;
 
 `;
 const Icono = styled.a`
@@ -22,8 +22,7 @@ const BotonsButon = styled.button`
   font-size: 15px;
   color: whitesmoke;
   background-color: #8C4F2B;
-  transition: all 1s ease-in-out
-
+  transition: all 1s ease-in-out;
 `;
 
 export default class Botons extends Component {
