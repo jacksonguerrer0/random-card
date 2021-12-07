@@ -1,0 +1,1 @@
+{"version":3,"sources":["webpack://src/styles/main.css"],"names":[],"mappings":"AAAA,EACI,SAAU,CACV,QAAS,CACT,qBAAsB,CACtB,wEACJ","file":"main.9e908f1a.chunk.css","sourcesContent":["*{\r\n    padding: 0;\r\n    margin: 0;\r\n    box-sizing: border-box;\r\n    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;\r\n}\r\n"]}
