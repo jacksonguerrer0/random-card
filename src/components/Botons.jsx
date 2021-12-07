@@ -5,10 +5,14 @@ const BotonsDiv = styled.div`
   margin-top: 20px;
   display: flex;
   justify-content: space-between;
+  transition: all 1s ease-in-out
+
 `;
 const Icono = styled.a`
   margin: 5px;
   font-size: 40px;
+  transition: all 1s ease-in-out;
+  color: #8C4F2B;
 `;
 const BotonsButon = styled.button`
   width: 70px;
@@ -17,6 +21,8 @@ const BotonsButon = styled.button`
   border-radius: 10px;
   font-size: 15px;
   color: whitesmoke;
+  background-color: #8C4F2B;
+  transition: all 1s ease-in-out
 
 `;
 

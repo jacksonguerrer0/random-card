@@ -5,6 +5,7 @@ const TextDiv= styled.div`
     color: whitesmoke;
     font-size: 25px;
     text-align: center;
+    transition: all 1s ease-in-out
 `
 
 

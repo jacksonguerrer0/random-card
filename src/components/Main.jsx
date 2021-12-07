@@ -13,10 +13,11 @@ const Container = styled.div`
   align-items: center;
   width: 100%;
   height:100vh;
-  background-color: black;
+  background-color: #8C4F2B;
 `
 const QuoteBox = styled.div`
-  width: 700px;
+  width: 95%;
+  max-width: 700px;
   height: 300px;
   padding: 10px 20px;
   border-radius: 3px;
@@ -77,11 +78,11 @@ export default class Main extends Component {
 
   render() {
     return(
-    <Container style={{backgroundColor: `${this.state.color}`}}>
+    <Container style={{backgroundColor: `${this.state.color}`, transition: "all 1s ease-in-out"}}>
       <QuoteBox id="quote-box">
-          <Text frase={this.state.frase} color={this.state.color}/>
-          <Author autor={this.state.autor} color={this.state.color}/>
-          <Botons  random={this._handleNumberRandom} color={this.state.color} frase={this.state.frase} autor={this.state.autor}/>
+          <Text frase={this.state.frase} color={this.state.color} />
+          <Author autor={this.state.autor} color={this.state.color} />
+          <Botons  random={this._handleNumberRandom} color={this.state.color} frase={this.state.frase} autor={this.state.autor} />
       </QuoteBox>
       <Creador/>
     </Container>

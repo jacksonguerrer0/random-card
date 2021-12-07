@@ -7,6 +7,7 @@ const AuthorDiv = styled.div`
     font-style: italic;
     text-align: right;
     margin-top: 20px;
+    transition: all 1s ease-in-out
 
 `
 
